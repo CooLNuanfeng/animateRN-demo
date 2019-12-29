@@ -1,19 +1,19 @@
-import React from 'react';
-import styled from 'styled-components';
+import React from "react";
+import styled from "styled-components";
 
-import Card from '../components/Card';
+import CardProduct from "../components/CardPruduct";
 
 export default function LinksScreen() {
   return (
     <Contain>
-      <Card/>
+      <CardProduct />
     </Contain>
   );
 }
 
 LinksScreen.navigationOptions = {
-  title: 'Links',
-  header: null,
+  title: "Links",
+  header: null
 };
 
 const Contain = styled.View`
@@ -21,4 +21,4 @@ const Contain = styled.View`
   display: flex;
   justify-content: center;
   align-items: center;
-`
+`;
