@@ -22,7 +22,7 @@ export default Card;
 const Container = styled.View`
   width: 315px;
   height: 280px;
-  margin-left: 20px;
+  margin-right: 20px;
   margin-top: 20px;
   border-radius: 14px;
   background: white;
